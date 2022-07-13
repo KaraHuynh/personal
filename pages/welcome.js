@@ -14,7 +14,7 @@ export default function Welcome(){
             if (index >= status.length) {
                 index = 0
             }
-            }, 3000);
+            }, 2500);
 
             return () => {
             clearInterval(interval);
@@ -32,9 +32,9 @@ export default function Welcome(){
                 />
             </div>
             <div className="flex-1 ml-10 mt-40">
-                <h1 className="text-4xl lg:text-5xl text-white">hi, my name is kara</h1>
+                <h1 className="text-4xl text-white">hi, my name is kara</h1>
                 <hr className="underline mt-2 mb-2"></hr>
-                <h1 className="text-4xl lg:text-5xl text-white">{displayElement}</h1>
+                <h1 className="text-4xl text-white">{displayElement}</h1>
             </div>
 
         </div>

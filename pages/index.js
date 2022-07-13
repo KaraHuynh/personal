@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from './navbar'
 import Welcome from './welcome'
+import About from './about'
 
 export default function Home() {
   return (
@@ -12,10 +13,8 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Welcome/>
+      <About/>
 
-      <main className="">
-        
-      </main>
 
       {/* <footer className="">
         <h1 className="">

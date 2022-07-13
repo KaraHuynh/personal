@@ -27,3 +27,17 @@ a {
   width: 80%;
   font-weight: 700px;
 }
+
+.about{
+  margin: auto;
+  margin-top: 15%;
+  width: 60%;
+}
+
+.about-title{
+  height: 14%;
+}
+
+.languages{
+  justify-content: center;
+}
