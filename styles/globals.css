@@ -23,6 +23,10 @@ a {
   box-sizing: border-box;
 }
 
+.welcome{
+  margin-top: 9%;
+}
+
 .underline{
   width: 80%;
   font-weight: 700px;
@@ -30,14 +34,10 @@ a {
 
 .about{
   margin: auto;
-  margin-top: 15%;
+  margin-top: 16%;
   width: 60%;
 }
 
 .about-title{
   height: 14%;
-}
-
-.languages{
-  justify-content: center;
 }
