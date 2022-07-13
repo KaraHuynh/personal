@@ -13,7 +13,7 @@ export default function About(){
                 <div className="flex flex-col md:flex-row m-10">
                     <div className="flex-1">
                         <img 
-                            className="hover:animate-bounce"
+                            className="hover:-translate-y-6 transition-all"
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996471011132330106/unknown.png"
                             alt="Python"
                             width="200"    
@@ -21,7 +21,7 @@ export default function About(){
                     </div>
                     <div className="flex-1">
                         <img 
-                            className="hover:animate-bounce"
+                            className="hover:-translate-y-6 transition-all"
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996875354033623181/unknown.png"
                             alt="HTML"
                             width="200"    
@@ -29,7 +29,7 @@ export default function About(){
                     </div>
                     <div className="flex-1">
                         <img 
-                            className="hover:animate-bounce"
+                            className="hover:-translate-y-6 transition-all"
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996875393783046265/unknown.png"
                             alt="Java"
                             width="200"    
@@ -37,7 +37,7 @@ export default function About(){
                     </div>
                     <div className="flex-1">
                         <img 
-                            className="hover:animate-bounce"
+                            className="hover:-translate-y-6 transition-all"
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996875455145721946/unknown.png"
                             alt="CSS"
                             width="200"    

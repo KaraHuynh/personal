@@ -34,7 +34,7 @@ export default function Welcome(){
             <div className="flex-1 ml-10 mt-40 mr-3">
                 <h1 className="text-4xl text-white">hi, my name is kara</h1>
                 <hr className="underline mt-2 mb-2"></hr>
-                <h1 className="text-4xl text-white anime-pulse">{displayElement}</h1>
+                <h1 className="text-4xl text-white transition ease-in-out">{displayElement}</h1>
             </div>
 
         </div>
