@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from './navbar'
 import Welcome from './welcome'
 import About from './about'
+import Projects from './projects'
 
 export default function Home() {
   return (
