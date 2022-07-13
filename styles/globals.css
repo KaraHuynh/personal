@@ -23,6 +23,7 @@ a {
   box-sizing: border-box;
 }
 
+/**************** WELCOME ****************/
 .welcome{
   margin-top: 9%;
 }
@@ -32,12 +33,30 @@ a {
   font-weight: 700px;
 }
 
+/**************** ABOUT ****************/
 .about{
   margin: auto;
   margin-top: 16%;
+  padding-bottom: 4%;
   width: 60%;
 }
 
 .about-title{
   height: 14%;
 }
+
+/**************** PROJECTS ****************/
+
+.projects{
+  margin-top: 16%;
+  justify-items: center;
+}
+
+.project-box{
+  width: 50%;
+  margin: 10%;
+}
+
+/**************** CONTACT ****************/
+
+/**************** FOOTER ****************/

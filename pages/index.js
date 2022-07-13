@@ -15,6 +15,7 @@ export default function Home() {
       <Navbar/>
       <Welcome/>
       <About/>
+      <Projects />
 
 
       {/* <footer className="">
