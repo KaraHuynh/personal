@@ -8,7 +8,15 @@ export default function Contact(){
                     if you have any suggestions, ideas or just want to talk, feel free to connect with me!
                 </h1>
 
-                <div className="contact-icons flex flex-col md:flex-row justify-center">
+                <form id="contact-form" name="contact-form" encType="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh51tscFeIOnYV_ucGtjZkwN68-du-htEkOGBkHPyR06kAA/formResponse" target="hidden_iframe" onSubmit="submitted=true;">
+                    <div className="mb-3">
+                        <input type="email" id="email" className=" text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="your name" required></input>
+                    </div>
+                    
+                    <button type="submit" value="Submit">Submit</button>
+                </form>
+            
+                <div className="contact-icons flex flex-row justify-center pb-10">
                     <a href="https://github.com/KaraHuynh" className="hover:opacity-75 transition-all">
                         <img 
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996945944153174066/github.png"

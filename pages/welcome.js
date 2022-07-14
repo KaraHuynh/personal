@@ -18,7 +18,7 @@ export default function Welcome(){
                 <h1 className="text-4xl text-white">hi, my name is kara</h1>
                 <hr className="underline mt-2 mb-2"></hr>
                 
-                <div className="text-4xl text-white">
+                <div className="text-4xl text-white h-40">
                     <Typewriter
                         options={{
                             autoStart: true,
