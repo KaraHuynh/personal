@@ -4,6 +4,7 @@ import Welcome from './welcome'
 import About from './about'
 import Projects from './projects'
 import Contact from './contact'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <About/>
       <Projects />
       <Contact />
+      <Footer />
 
 
       {/* <footer className="">

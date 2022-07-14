@@ -3,7 +3,7 @@ export default function Projects(){
         <div className="projects grid grid-cols-1 md:grid-cols-3">
             <div className="project-box container rounded-lg bg-[#9A9CEA] w-20 h-fit">
                 <div className="about-title rounded-lg bg-[#A7A8DE]">
-                    <h1 className="text-2xl text-white text-center py-1.5">her needs</h1>
+                    <h1 className="text-4xl text-white text-center py-1.5">her needs</h1>
                 </div>
                 <img 
                     className="rounded-lg content-center"
@@ -37,7 +37,7 @@ export default function Projects(){
 
             <div className="project-box container rounded-lg bg-[#9A9CEA] w-20 h-fit">
                 <div className="about-title rounded-lg bg-[#A7A8DE]">
-                    <h1 className="text-2xl text-white text-center py-1.5">blahajack</h1>
+                    <h1 className="text-4xl text-white text-center py-1.5">blahajack</h1>
                 </div>
                 <img 
                     className="rounded-lg content-center"
@@ -71,7 +71,7 @@ your opponents. this project was rewarded <strong>First Overall</strong> out of 
 
             <div className="project-box container rounded-lg bg-[#9A9CEA] w-20 h-fit">
                 <div className="about-title rounded-lg bg-[#A7A8DE]">
-                    <h1 className="text-2xl text-white text-center py-1.5">qrvsp</h1>
+                    <h1 className="text-4xl text-white text-center py-1.5">qrvsp</h1>
                 </div>
                 <img 
                     className="rounded-lg content-center"
