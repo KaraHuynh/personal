@@ -23,7 +23,7 @@ export default function Welcome(){
     
     return(
         <div className="welcome flex flex-col md:flex-row">
-            <div className="flex-1">
+            <div className="flex-1 hover:cursor-zoom-in">
                 <img
                     className="rounded-full ml-10 md:float-right"
                     src="https://cdn.discordapp.com/attachments/878469526117810217/996853106597953748/unknown.png"
