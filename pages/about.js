@@ -45,7 +45,7 @@ export default function About(){
                     </div>
 
                 </div>
-                <h1 className="text-xl md:text-2xl text-white text-center mt-5">check out some of my projects below!</h1>
+                <h1 className="text-xl md:text-2xl text-white text-center mt-5">check out some of my projects below!<br></br></h1>
             </div>
         
         </>

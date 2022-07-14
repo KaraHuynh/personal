@@ -37,7 +37,7 @@ a {
 .about{
   margin: auto;
   margin-top: 16%;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
   width: 60%;
 }
 
@@ -48,15 +48,24 @@ a {
 /**************** PROJECTS ****************/
 
 .projects{
-  margin-top: 16%;
+  margin-top: 5%;
   justify-items: center;
+  margin-bottom: 16%;
 }
 
 .project-box{
-  width: 50%;
+  width: 80%;
   margin: 10%;
 }
 
 /**************** CONTACT ****************/
+.contacts{
+  margin: auto;
+  width: 50%;
+}
+
+.contact-icons{
+  align-items: center;
+}
 
 /**************** FOOTER ****************/
