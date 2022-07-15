@@ -7,16 +7,16 @@ export default function Contact(){
                 <h1 className="text-xl md:text-2xl text-white text-center m-5">
                     if you have any suggestions, ideas or just want to talk, feel free to connect with me!
                 </h1>
-
-                <form id="contact-form" name="contact-form" encType="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh51tscFeIOnYV_ucGtjZkwN68-du-htEkOGBkHPyR06kAA/formResponse" target="hidden_iframe" onSubmit="submitted=true;">
+                
+                <form className="m-5" id="contact-form" name="contact-form" encType="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh51tscFeIOnYV_ucGtjZkwN68-du-htEkOGBkHPyR06kAA/formResponse" target="hidden_iframe" onSubmit="submitted=true;">
                     <div className="mb-3">
-                        <input type="text" className=" text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name" required></input>
+                        <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-80" placeholder="name" required></input>
                     </div>
                     <div className="mb-3">
-                        <input type="email" id="email" className=" text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="email" required></input>
+                        <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-80" placeholder="email" required></input>
                     </div>
                     <div className="mb-3">
-                        <input type="email" id="email" className=" text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="email" required></input>
+                        <textarea type="text" rows="4" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-80" placeholder="message" required></textarea>
                     </div>
                     <div className="buttonHolder mb-10">
                         <button type="submit" value="Submit">
