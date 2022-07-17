@@ -1,3 +1,5 @@
+
+
 export default function Contact(){
     return (
         <div className="contacts container rounded-lg bg-[#9A9CEA]">
@@ -8,23 +10,26 @@ export default function Contact(){
                     if you have any suggestions, ideas or just want to talk, feel free to connect with me!
                 </h1>
                 
-                <form className="m-5" id="contact-form" name="contact-form" encType="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh51tscFeIOnYV_ucGtjZkwN68-du-htEkOGBkHPyR06kAA/formResponse" target="hidden_iframe" onSubmit="submitted=true;">
-                    <div className="mb-3">
-                        <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-80" placeholder="name" required></input>
-                    </div>
-                    <div className="mb-3">
-                        <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-80" placeholder="email" required></input>
-                    </div>
-                    <div className="mb-3">
-                        <textarea type="text" rows="4" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 w-80" placeholder="message" required></textarea>
-                    </div>
-                    <div className="buttonHolder mb-10">
-                        <button type="submit" value="Submit">
-                            <img src="https://cdn.discordapp.com/attachments/838956183850844190/997214985585434624/Paper_Plane.png" width="50"/>
-                        </button>
-                    </div>
-                    
-                </form>
+                <div className="contact-form" align="center">
+                    <form className="m-5" encType="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh51tscFeIOnYV_ucGtjZkwN68-du-htEkOGBkHPyR06kAA/formResponse" target="hidden_iframe" onSubmit="submitted=true;">
+                        <div className="mb-3">
+                            <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="name" required></input>
+                        </div>
+                        <div className="mb-3">
+                            <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="email" required></input>
+                        </div>
+                        <div className="mb-3">
+                            <textarea type="text" rows="4" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="message" required></textarea>
+                        </div>
+                        <div className="buttonHolder mb-10">
+                            <button type="submit" value="Submit">
+                                <img src="https://cdn.discordapp.com/attachments/838956183850844190/997214985585434624/Paper_Plane.png" width="50"/>
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>
+                
             
                 <div className="contact-icons flex flex-row justify-center pb-10">
                     <a href="https://github.com/KaraHuynh" className="hover:opacity-75 transition-all mr-3">
