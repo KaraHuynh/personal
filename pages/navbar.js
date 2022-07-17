@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function navbar(){
     return (
         <nav className="bg-[#9A9CEA]">
@@ -5,16 +7,26 @@ export default function navbar(){
                 <div className="flex justify-center">
                     <ul className="flex flex-row mt-0 mr-6 space-x-16 text-xl">
                         <li>
-                            <a href="#" className="text-white hover:underline" aria-current="page">home</a>
+                            <Link href=''>
+                                <a className="text-white hover:underline" aria-current="page">home</a>
+                            </Link>
+                            
                         </li>
                         <li>
-                            <a href="#" className="text-white hover:underline">about</a>
+                            <Link href='#about'>
+                                <a className="text-white hover:underline">about</a>
+                            </Link>
+                            
                         </li>
                         <li>
-                            <a href="https://drive.google.com/file/d/1tCaRr8nhw4Yh4q1ohjQXxwaAhpb_J2Yt/view" className="text-white hover:underline">resume</a>
+                            <Link href="https://drive.google.com/file/d/1tCaRr8nhw4Yh4q1ohjQXxwaAhpb_J2Yt/view">
+                                <a className="text-white hover:underline">resume</a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="text-white hover:underline">contact</a>
+                            <Link href="#contact">
+                                <a className="text-white hover:underline">contact</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

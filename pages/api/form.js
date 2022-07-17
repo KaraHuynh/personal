@@ -1,5 +1,4 @@
 const mail = require('@sendgrid/mail');
-const SENDGRID_API_KEY = "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";
 mail.setApiKey(process.env.SENDGRID_API_KEY);
 
 export default async (req, res) => {
@@ -12,8 +11,8 @@ export default async (req, res) => {
   `;
 
   const data = {
-    to: 'SENDER-EMAIL',
-    from: 'RECEIVER-EMAIL',
+    to: 'karahuynh122@gmail.com',
+    from: 'karahuynh122@gmail.com',
     subject: `New message from ${body.name}`,
     text: message,
     html: message.replace(/\r\n/g, '<br />'),

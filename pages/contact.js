@@ -19,7 +19,7 @@ export default function Contact(){
         alert("message sent");
     };
     return (
-        <div className="contacts container rounded-lg bg-[#9A9CEA]">
+        <div id="contact" className="contacts container rounded-lg bg-[#9A9CEA]">
             <div className="about-title rounded-lg bg-[#A7A8DE]">
                     <h1 className="text-4xl text-white text-center">contact me</h1>
                 </div>
@@ -30,13 +30,13 @@ export default function Contact(){
                 <div className="contact-form" align="center">
                     <form className="m-5" onSubmit={handleSubmit}>
                         <div className="mb-3">
-                            <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="name" onChange={e => setName(e.target.value)} required></input>
+                            <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" placeholder="name" onChange={e => setName(e.target.value)} required></input>
                         </div>
                         <div className="mb-3">
-                            <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="email" onChange={e => setEmail(e.target.value)} required></input>
+                            <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" placeholder="email" onChange={e => setEmail(e.target.value)} required></input>
                         </div>
                         <div className="mb-3">
-                            <textarea type="text" rows="4" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" onChange={e => setMessage(e.target.value)} placeholder="message" required></textarea>
+                            <textarea type="text" rows="7" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" onChange={e => setMessage(e.target.value)} placeholder="message" required></textarea>
                         </div>
                         <div className="buttonHolder mb-10">
                             <button type="submit" value="Submit">

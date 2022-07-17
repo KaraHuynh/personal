@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <>
-            <div className="about container rounded-lg bg-[#9A9CEA] w-90 ">
+            <div id="about" className="about container rounded-lg bg-[#9A9CEA] w-90 ">
                 <div className="about-title rounded-lg bg-[#A7A8DE]">
                     <h1 className="text-4xl text-white text-center py-1.5">about me</h1>
                 </div>

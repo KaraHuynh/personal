@@ -32,6 +32,7 @@ export default function Welcome(){
                             .pauseFor(2000)
                             .deleteAll()
                             .typeString("a passionate gamer...")
+                            .pauseFor(2000)
                             .deleteAll()
                             .start();
                         }}
