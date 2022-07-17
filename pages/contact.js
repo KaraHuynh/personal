@@ -1,6 +1,23 @@
-
+import { useState } from 'react';
 
 export default function Contact(){
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = e => {
+        e.preventDefault();
+        const data = {
+        name,
+        email,
+        message,
+        };
+        fetch('/api/form', {
+            method: 'post',
+            body: JSON.stringify(data),
+        });
+        alert("message sent");
+    };
     return (
         <div className="contacts container rounded-lg bg-[#9A9CEA]">
             <div className="about-title rounded-lg bg-[#A7A8DE]">
@@ -11,15 +28,15 @@ export default function Contact(){
                 </h1>
                 
                 <div className="contact-form" align="center">
-                    <form className="m-5" encType="text/plain" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZh51tscFeIOnYV_ucGtjZkwN68-du-htEkOGBkHPyR06kAA/formResponse" target="hidden_iframe" onSubmit="submitted=true;">
+                    <form className="m-5" onSubmit={handleSubmit}>
                         <div className="mb-3">
-                            <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="name" required></input>
+                            <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="name" onChange={e => setName(e.target.value)} required></input>
                         </div>
                         <div className="mb-3">
-                            <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="email" required></input>
+                            <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="email" onChange={e => setEmail(e.target.value)} required></input>
                         </div>
                         <div className="mb-3">
-                            <textarea type="text" rows="4" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" placeholder="message" required></textarea>
+                            <textarea type="text" rows="4" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-80" onChange={e => setMessage(e.target.value)} placeholder="message" required></textarea>
                         </div>
                         <div className="buttonHolder mb-10">
                             <button type="submit" value="Submit">
