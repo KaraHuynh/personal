@@ -1,4 +1,9 @@
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDev } from '@fortawesome/free-brands-svg-icons';
 
+config.autoAddCss = false
 
 export default function Projectcard({ title, imageLink, altDes, languages, paragraph, github, devpost }){
     return(
@@ -26,11 +31,7 @@ export default function Projectcard({ title, imageLink, altDes, languages, parag
                             />
                         </a>
                         <a href={devpost} className="hover:opacity-75 transition-all">
-                            <img 
-                                src="https://cdn.discordapp.com/attachments/878469526117810217/996945888557662238/web.png"
-                                alt="devpost"
-                                width="60"
-                            />
+                            <FontAwesomeIcon className="devpost text-white" icon={faDev}/>
                         </a>
                     </div>
 

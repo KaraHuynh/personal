@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDev } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact(){
     async function handleSubmit(e){
@@ -81,11 +85,7 @@ export default function Contact(){
                         />
                     </a>
                     <a href="https://devpost.com/kara-huynh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" className="hover:opacity-75 transition-all ml-3">
-                        <img 
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996945888557662238/web.png"
-                            alt="devpost"
-                            width="60"
-                        />
+                        <FontAwesomeIcon className="devpost text-white" icon={faDev}/>
                     </a>
 
                 </div>
