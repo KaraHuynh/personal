@@ -1,42 +1,59 @@
 import { useState } from 'react';
 
 export default function Contact(){
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-
-    const handleSubmit = e => {
+    async function handleSubmit(e){
         e.preventDefault();
-        const data = {
-        name,
-        email,
-        message,
-        };
+        const formData = {}
+        Array.from(e.currentTarget.elements).forEach(field =>{
+            if ( !field.name ) return;
+            formData[field.name] = field.value;
+        });
         fetch('/api/form', {
             method: 'post',
-            body: JSON.stringify(data),
-        });
-        alert("message sent");
-    };
+            body: JSON.stringify(formData)
+        })
+        console.log(formData);
+    }
     return (
         <div id="contact" className="contacts container rounded-lg bg-[#9A9CEA]">
-            <div className="about-title rounded-lg bg-[#A7A8DE]">
-                    <h1 className="text-4xl text-white text-center">contact me</h1>
+            <div className="h-10 rounded-lg bg-[#A7A8DE]">
+                    <h1 className="text-4xl text-white text-center m-2">contact me</h1>
                 </div>
                 <h1 className="text-xl md:text-2xl text-white text-center m-5">
                     if you have any suggestions, ideas or just want to talk, feel free to connect with me!
+                    <br></br>you can also shoot me an email at <a className="font-bold" href="mailto:kara.huynh@ryerson.ca">kara.huynh@ryerson.ca.</a>
                 </h1>
                 
-                <div className="contact-form" align="center">
-                    <form className="m-5" onSubmit={handleSubmit}>
+                {/* <div className="contact-form" align="center">
+                    <form className="m-5" method="post" onSubmit={handleSubmit}>
                         <div className="mb-3">
-                            <input type="text" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" placeholder="name" onChange={e => setName(e.target.value)} required></input>
+                            <input 
+                                type="text" 
+                                name="name"
+                                className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" 
+                                placeholder="name" 
+                                required 
+                            />
                         </div>
                         <div className="mb-3">
-                            <input type="email" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" placeholder="email" onChange={e => setEmail(e.target.value)} required></input>
+                            <input 
+                                type="email" 
+                                name="email"
+                                className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" 
+                                placeholder="email" 
+                                required
+                            />
                         </div>
                         <div className="mb-3">
-                            <textarea type="text" rows="7" cols="50" className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" onChange={e => setMessage(e.target.value)} placeholder="message" required></textarea>
+                            <textarea 
+                                type="text" 
+                                name="message"
+                                rows="7" 
+                                cols="50" 
+                                className="bg-[#A7A8DE] text-white placeholder-white text-md rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full block p-2.5 md:w-96" 
+                                placeholder="message" 
+                                required
+                            />
                         </div>
                         <div className="buttonHolder mb-10">
                             <button type="submit" value="Submit">
@@ -45,7 +62,7 @@ export default function Contact(){
                         </div>
                         
                     </form>
-                </div>
+                </div> */}
                 
             
                 <div className="contact-icons flex flex-row justify-center pb-10">
