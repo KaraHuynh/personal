@@ -19,7 +19,7 @@ export default function navbar(){
                             
                         </li>
                         <li>
-                            <Link href="https://drive.google.com/file/d/1tCaRr8nhw4Yh4q1ohjQXxwaAhpb_J2Yt/view">
+                            <Link href="https://drive.google.com/file/d/1LXa15aHCiMldrf-vX_YmdtOsVSkaQ37a/view?usp=sharing">
                                 <a className="text-white hover:underline">resume</a>
                             </Link>
                         </li>
