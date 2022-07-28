@@ -5,7 +5,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  distDir: 'build',
+  distDir: 'out',
   target: 'serverless'
 
 }
