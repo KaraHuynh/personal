@@ -4,3 +4,8 @@ package = "@netlify/plugin-nextjs"
 [build]
 command = "npm run build && npm run export"
 publish = "out"
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
