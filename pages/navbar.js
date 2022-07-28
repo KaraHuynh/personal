@@ -7,7 +7,7 @@ export default function navbar(){
                 <div className="flex justify-center">
                     <ul className="flex flex-row mt-0 mr-6 space-x-16 text-xl">
                         <li>
-                            <Link href=''>
+                            <Link href='/'>
                                 <a className="text-white hover:underline" aria-current="page">home</a>
                             </Link>
                             
