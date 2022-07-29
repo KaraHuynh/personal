@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import Anya from "./images/anya.gif";
@@ -11,18 +10,18 @@ export default function Welcome(){
     return(
         <div className="welcome flex flex-col md:flex-row">
             <div className="flex-1" onClick={()=> setShowModal(true)}>
-                {/* <img
-                    className="rounded-full ml-10 md:float-right"
-                    src="https://cdn.discordapp.com/attachments/878469526117810217/996853106597953748/unknown.png"
-                    alt="Photo of Kara"
-                    width="420"
-                /> */}
 
                 <div className='ml-10 md:float-right'>
-                    <Image
+                    {/* <Image
                         className="rounded-full" 
                         src={profilePic}
                         alt="Photo of Kara"
+                    /> */}
+                    <img
+                        className="rounded-full ml-10 md:float-right"
+                        src="https://cdn.discordapp.com/attachments/878469526117810217/996853106597953748/unknown.png"
+                        alt="Photo of Kara"
+                        width="420"
                     />
                 </div>
             </div>
