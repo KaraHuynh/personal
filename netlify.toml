@@ -4,7 +4,3 @@ package = "@netlify/plugin-nextjs"
 [build]
 publish = ".next"
 
-[[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
