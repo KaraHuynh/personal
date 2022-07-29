@@ -11,14 +11,14 @@ export default function Welcome(){
         <div className="welcome flex flex-col md:flex-row">
             <div className="flex-1" onClick={()=> setShowModal(true)}>
 
-                <div className='ml-10 md:float-right'>
+                <div className='ml-4 md:ml-10 md:float-right'>
                     {/* <Image
                         className="rounded-full" 
                         src={profilePic}
                         alt="Photo of Kara"
                     /> */}
                     <img
-                        className="rounded-full ml-10 md:float-right"
+                        className="rounded-full"
                         src="https://cdn.discordapp.com/attachments/878469526117810217/996853106597953748/unknown.png"
                         alt="Photo of Kara"
                         width="420"
