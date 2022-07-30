@@ -85,10 +85,9 @@ export default function About(){
                     </div>
                     <div className="flex-1">
                         <img 
-                            className="hover:-translate-y-6 transition-all"
                             src="https://cdn.discordapp.com/attachments/878469526117810217/1003046945532674188/react_1.png"
                             alt="Next"
-                            width="170"    
+                            width="50"     
                         />
                     </div>
 
