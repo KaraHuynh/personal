@@ -15,7 +15,7 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996471011132330106/unknown.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404906115143/python.png"
                             alt="Python"
                             width="170"    
                         />
@@ -23,15 +23,7 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996875354033623181/unknown.png"
-                            alt="HTML"
-                            width="170"    
-                        />
-                    </div>
-                    <div className="flex-1">
-                        <img 
-                            className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996875393783046265/unknown.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404302127194/java.png"
                             alt="Java"
                             width="170"    
                         />
@@ -39,7 +31,15 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1001597603236036648/Javascript_1.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045403974979645/c.png"
+                            alt="C"
+                            width="170"    
+                        />
+                    </div>
+                    <div className="flex-1">
+                        <img 
+                            className="hover:-translate-y-6 transition-all"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003046109410766848/javascript_3.png"
                             alt="Javascript"
                             width="170"    
                         />
@@ -47,8 +47,8 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/982318657566814208/1001602889275424778/c-.png"
-                            alt="C"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404625076305/html.png"
+                            alt="HTML"
                             width="170"    
                         />
                     </div>
@@ -58,11 +58,11 @@ export default function About(){
                     some web frameworks i've worked with before are
                 </h1>
 
-                <div className="flex flex-col md:flex-row m-12 md:ml-32">
+                <div className="flex flex-col md:flex-row m-12 md:ml-64">
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1001594514361819206/Group_2.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045403190640640/react.png"
                             alt="React"
                             width="170"    
                         />
@@ -70,7 +70,7 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1001593054949539900/Component_4.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045402880266270/nodejs.png"
                             alt="Node"
                             width="170"    
                         />
@@ -78,7 +78,7 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1001598227923091476/Component_4_1.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045402163023892/vue.png"
                             alt="Vue"
                             width="170"    
                         />
@@ -86,7 +86,7 @@ export default function About(){
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
-                            src="https://cdn.discordapp.com/attachments/982318657566814208/1001603511995351141/Component_4_2.png"
+                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003046945532674188/react_1.png"
                             alt="Next"
                             width="170"    
                         />
