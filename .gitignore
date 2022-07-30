@@ -31,3 +31,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+
+netlify.toml
+next.config.js
+tailwind.config.js
+postcss.config.js
