@@ -2,7 +2,7 @@ import Projectcard from "./projectcard";
 
 export default function Projects(){
     return(
-        <div className="projects grid grid-cols-1 md:grid-cols-3">
+        <div className="projects grid grid-cols-1 lg:grid-cols-3">
             <Projectcard 
                 title={"her needs"} 
                 imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/996918940158677062/unknown.png"}

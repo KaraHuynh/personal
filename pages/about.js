@@ -11,7 +11,7 @@ export default function About(){
                     coding became a passion in my life and i have a dream to become a software developer in the future.
                 <br/><br/>some languages i know are
                 </h1>
-                <div className="flex flex-col ml-12 md:flex-row md:m-10">
+                <div className="flex flex-col ml-8 md:flex-row md:m-10">
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"
@@ -58,7 +58,7 @@ export default function About(){
                     some web frameworks i've worked with before are
                 </h1>
 
-                <div className="flex flex-col md:flex-row m-12 md:ml-64">
+                <div className="flex flex-col md:flex-row m-16 lg:ml-64">
                     <div className="flex-1">
                         <img 
                             className="hover:-translate-y-6 transition-all"

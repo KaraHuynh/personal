@@ -5,7 +5,7 @@ export default function navbar(){
         <nav className="bg-[#9A9CEA]">
             <div className="max-w-screen-xl px-4 py-3 mx-auto md:px-6">
                 <div className="flex justify-center">
-                    <ul className="sm:mr-2 flex flex-row mt-0 md:mr-6 space-x-16 text-xl">
+                    <ul className="ml-4 flex flex-row mt-0 md:mr-6 space-x-10 md:space-x-16 text-lg md:text-xl">
                         <li>
                             <Link href='/'>
                                 <a className="text-white hover:underline" aria-current="page">home</a>
