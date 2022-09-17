@@ -19,7 +19,7 @@ export default function Welcome(){
                     /> */}
                     <img
                         className="rounded-full"
-                        src="https://cdn.discordapp.com/attachments/878469526117810217/1020790260835287171/IMG_6350.jpg"
+                        src="https://cdn.discordapp.com/attachments/878469526117810217/1020792840894283827/unknown.png"
                         alt="Photo of Kara"
                         width="420"
                     />
