@@ -19,7 +19,7 @@ export default function Welcome(){
                     /> */}
                     <img
                         className="rounded-full"
-                        src="https://cdn.discordapp.com/attachments/878469526117810217/996853106597953748/unknown.png"
+                        src="https://cdn.discordapp.com/attachments/878469526117810217/1020790260835287171/IMG_6350.jpg"
                         alt="Photo of Kara"
                         width="420"
                     />
@@ -36,7 +36,7 @@ export default function Welcome(){
                             loop: true,
                         }}
                         onInit={(typewriter)=>{
-                            typewriter.typeString("incoming third year computer science student...")
+                            typewriter.typeString("a third year computer science student...")
                             .pauseFor(2000)
                             .deleteAll()
                             .typeString("an aspiring software developer...")
