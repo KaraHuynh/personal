@@ -23,7 +23,7 @@ export default function Contact(){
             <div className="h-10 rounded-lg bg-[#A7A8DE]">
                     <h1 className="text-4xl text-white text-center m-2">contact me</h1>
                 </div>
-                <h1 className="text-xl md:text-2xl text-white text-center m-5">
+                <h1 className="text-xl md:text-2xl text-white text-center m-5 mr-">
                     if you have any suggestions, ideas or just want to talk, feel free to connect with me!
                     <br></br>you can also shoot me an email at <a className="font-bold" href="mailto:kara.huynh@ryerson.ca">kara.huynh@ryerson.ca.</a>
                 </h1>

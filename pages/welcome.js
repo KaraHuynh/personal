@@ -11,7 +11,7 @@ export default function Welcome(){
         <div className="welcome flex flex-col md:flex-row">
             <div className="flex-1" onClick={()=> setShowModal(true)}>
 
-                <div className='ml-4 md:ml-10 md:float-right'>
+                <div className='ml-4 md:ml-10 md:float-right custom-position'>
                     {/* <Image
                         className="rounded-full" 
                         src={profilePic}
@@ -19,9 +19,10 @@ export default function Welcome(){
                     /> */}
                     <img
                         className="rounded-full"
-                        src="https://cdn.discordapp.com/attachments/878469526117810217/1020792840894283827/unknown.png"
+                        src="https://cdn.discordapp.com/attachments/878469526117810217/1020790260835287171/IMG_6350.jpg"
                         alt="Photo of Kara"
                         width="420"
+                        
                     />
                 </div>
             </div>
