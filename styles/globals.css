@@ -33,13 +33,13 @@ a {
   font-weight: 700px;
 }
 
-/* .custom-position{
-  border-radius: 50%;
+.custom-position{
+  border-radius: 50%; 
   position: relative;
   overflow: hidden;
   width: 23em;
   height: 23em;
-} */
+}
 
 /**************** ABOUT ****************/
 .about{
