@@ -8,24 +8,24 @@ export default function navbar(){
                     <ul className="ml-4 flex flex-row mt-0 md:mr-6 space-x-10 md:space-x-16 text-lg md:text-xl">
                         <li>
                             <Link href='/'>
-                                <a className="text-white hover:underline" aria-current="page">home</a>
+                                <a className="hover-effect text-white" aria-current="page">home</a>
                             </Link>
                             
                         </li>
                         <li>
                             <Link href='#about'>
-                                <a className="text-white hover:underline">about</a>
+                                <a className="hover-effect text-white">about</a>
                             </Link>
                             
                         </li>
                         <li>
-                            <Link href="https://drive.google.com/file/d/1-f3GpoY5ERVFpB8-bEvCRF13MuWEWMzT/view?usp=sharing">
-                                <a className="text-white hover:underline" target="_blank">resume</a>
+                            <Link href="https://drive.google.com/file/d/14hC2SacGnCd4G2xRIROLdxxMqVcqH_f9/view?usp=sharing">
+                                <a className="hover-effect text-white" target="_blank">resume</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="#contact">
-                                <a className="text-white hover:underline">contact</a>
+                                <a className="hover-effect text-white">contact</a>
                             </Link>
                         </li>
                     </ul>

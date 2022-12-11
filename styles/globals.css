@@ -4,12 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @layer base {
-  body {
+  html, body {
     font-family: 'Poppins', system-ui, sans-serif;
   }
 }
 
-html{
+html {
   scroll-behavior: smooth;
   background-color: #5F73A3;
 }
@@ -17,6 +17,25 @@ html{
 a {
   color: inherit;
   text-decoration: none;
+  position: relative;
+}
+
+.hover-effect::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffff;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+  transform: scaleX(0);
+}
+
+.hover-effect:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 * {
@@ -24,16 +43,16 @@ a {
 }
 
 /**************** WELCOME ****************/
-.welcome{
-  margin-top: 9%;
+.welcome {
+  margin-top: 10%;
 }
 
-.underline{
+.underline {
   width: 80%;
   font-weight: 700px;
 }
 
-.custom-position{
+.custom-position {
   border-radius: 50%; 
   position: relative;
   overflow: hidden;
@@ -42,45 +61,88 @@ a {
 }
 
 /**************** ABOUT ****************/
-.about{
+.about {
   margin: auto;
-  margin-top: 16%;
+  margin-top: 17%;
   padding-bottom: 3%;
   width: 60%;
 }
 
-.about-title{
-  height: 14%;
+.language {
+  margin: 10px;
+  display: inline-block;
 }
+
+.language-images {
+  text-align: center;
+}
+
 
 /**************** PROJECTS ****************/
 
-.projects{
+.projects {
   margin-top: 5%;
   justify-items: center;
   margin-bottom: 16%;
 }
 
-.project-box{
-  width: 80%;
-  margin: 10%;
+.project-box {
+  width: 70%;
+  margin: 5%;
+  background-color: #9A9CEA;
+  /* height: 88%; */
 }
+/* 
+.project-paragraph {
+  height: 250px; 
+} */
 
-.devpost{
+.devpost {
   font-size: 3.7rem;
 }
 
+.project-image {
+  height: auto;
+  max-height: 320px;
+  width: fit;
+  /* width: 20%;
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative; */
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .image-thing {
+  max-width: 100%;
+  max-height: auto;
+  position: relative;
+  vertical-align: middle;
+  left: 50%;
+  transform: translate(-50%);
+  height: 300px;
+  width: 500px;
+  object-fit:cover;
+} */
+
 /**************** CONTACT ****************/
-.contacts{
+.contacts {
   margin: auto;
   width: 60%;
 }
 
-.contact-icons{
+.contact-icons {
   align-items: center;
 }
 
-.buttonHolder{
+.buttonHolder {
   text-align: center;
   background-color: #A7A8DE;
   width: 8%;
@@ -88,10 +150,18 @@ a {
   border-radius: 25%;
 }
 
-input[type=submit]{
+input[type=submit] {
   text-align: center;
   border: none;
   padding: 20px 32px;
   text-decoration: none;
   margin: 4px 2px;
+}
+
+@media screen and (max-width: 480px) {
+  .contacts {
+    width: 70%;
+  }
+
+
 }

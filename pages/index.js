@@ -17,11 +17,11 @@ export default function Home() {
 		    <meta name="description" content="My own personal website :)"/>
         <title>Kara Huynh</title>
         <link rel="icon" href="https://cdn.discordapp.com/attachments/878469526117810217/1001618442161508422/Screenshot_2022-07-26_183159-removebg-preview_3.png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" />
       </Head>
-
-      <Navbar/>
-      <Welcome/>
-      <About/>
+      <Navbar />
+      <Welcome />
+      <About />
       <Projects />
       <Contact />
       <Footer />

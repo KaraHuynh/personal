@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import Anya from "./images/anya.gif";
-import profilePic from './images/kara.png'
+// import Anya from "./images/anya.gif";
+// import profilePic from './images/kara.png';
 
 export default function Welcome(){
     const [showModal, setShowModal] = useState(false);
-
 
     return(
         <div className="welcome flex flex-col md:flex-row">
             <div className="flex-1" onClick={()=> setShowModal(true)}>
 
-                <div className='ml-4 md:ml-10 md:float-right custom-position'>
+                <div className='m-auto md:ml-10 md:float-right custom-position'>
                     {/* <Image
                         className="rounded-full" 
                         src={profilePic}
@@ -27,10 +26,10 @@ export default function Welcome(){
                 </div>
             </div>
             <div className="flex-1 ml-10 mt-40 mr-5">
-                <h1 className="text-4xl text-white">hi, my name is kara</h1>
+                <h1 className="text-3xl md:text-4xl text-white">hi, my name is kara</h1>
                 <hr className="underline mt-2 mb-2"></hr>
                 
-                <div className="text-4xl text-white h-40">
+                <div className="text-3xl md:text-4xl text-white h-40">
                     <Typewriter
                         options={{
                             autoStart: true,
