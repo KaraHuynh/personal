@@ -26,7 +26,7 @@ export default function ProjectCard({ title, imageLink, altDes, languages, parag
                     width="700"
                 />
             </div>
-            <div className="project-paragraph mb-5 ">
+            <div className="project-paragraph mb-5 m-2">
                 <h1 className="text-xl md:text-2xl font-bold text-white text-center m-3 pt-3 h-16">{languages}</h1>
                 <h1 className="text-lg text-white text-center py-1.5 m-3">
                     {paragraph}

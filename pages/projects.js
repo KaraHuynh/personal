@@ -5,6 +5,16 @@ export default function Projects(){
     return(
         <div className="projects grid grid-cols-1 lg:grid-cols-2">
             <ProjectCard 
+                title={"blaze buddy"} 
+                imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/1098430594830061669/gallery.png"}
+                altDes={"Blaze Buddy Landing Page"}
+                languages={"python, cohere api, react, flask, figma"}    
+                paragraph = {"blaze buddy's goal is to be a one-pit stop for users on staying informed about current fire-related incidents, statistics, and safety protocols. this project was rewarded Best Use of Cohere API - 2nd Place out of 47 projects at ElleHacks 2023."}
+                github={"https://github.com/KaraHuynh/xhacks"}
+                devpost={"https://devpost.com/software/cats-xom0hn"}
+            />
+            
+            <ProjectCard 
                 title={"her needs"} 
                 imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/996918940158677062/unknown.png"}
                 altDes={"Her Needs Landing Page"}
@@ -32,16 +42,6 @@ export default function Projects(){
                 paragraph = {"qrvsp is a website that is dedicated to making event planning more simple and efficient using openscreen's api! users can generate QR codes for connecting to WIFI, RVSP and organization purposes! this project was placed in the Top 10 Projects at RUHacks 2022."}
                 github={"https://github.com/KaraHuynh/QRSVP"}
                 devpost={"https://devpost.com/software/qrvsp"}
-            />
-
-            <ProjectCard 
-                title={"purrfect"} 
-                imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/1051593328417845328/purrfect.png"}
-                altDes={"Purrfect Landing Page"}
-                languages={"html, css, javascript, photoshop"}    
-                paragraph = {"purrfect is an user interactive website dedicated to cheering up people with cats submitted at XHacks 2021! explore the different pages of cat videos, cat meme generator or drawing your own cat! this was the first website i've ever created alongside my friends."}
-                github={"https://github.com/KaraHuynh/xhacks"}
-                devpost={"https://devpost.com/software/cats-xom0hn"}
             />
         </div>
         // <Grid container style={{ display: 'grid' }}>
