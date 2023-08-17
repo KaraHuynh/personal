@@ -33,7 +33,7 @@ export default function ProjectCard({ title, imageLink, altDes, languages, parag
                 </h1>
             </div>
             <div className="project-icons flex float-right m-5 mt-5">
-                    <a href={github} className="hover:opacity-75 transition-all">
+                    <a target="__blank" href={github} className="hover:opacity-75 transition-all">
                         <img 
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996945944153174066/github.png"
                             alt="github"

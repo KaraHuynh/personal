@@ -10,8 +10,8 @@ export default function Projects(){
                 altDes={"Blaze Buddy Landing Page"}
                 languages={"python, cohere api, react, flask, figma"}    
                 paragraph = {"blaze buddy's goal is to be a one-pit stop for users on staying informed about current fire-related incidents, statistics, and safety protocols. this project was rewarded Best Use of Cohere API - 2nd Place out of 47 projects at ElleHacks 2023."}
-                github={"https://github.com/KaraHuynh/xhacks"}
-                devpost={"https://devpost.com/software/cats-xom0hn"}
+                github={"https://github.com/KaraHuynh/Blaze-Buddy"}
+                devpost={"https://devpost.com/software/fireresponse-chatbot"}
             />
             
             <ProjectCard 

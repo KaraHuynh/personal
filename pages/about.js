@@ -14,7 +14,7 @@ export default function About(){
                 {/*flex flex-col ml-8 md:flex-row m-auto md:m-10 */}
                 <div className="language-images">
                     <div className="language flex-1">
-                        <img 
+                        <img
                             className="hover:scale-125 ease-in-out duration-150 transition-all"
                             src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404906115143/python.png"
                             alt="Python"
