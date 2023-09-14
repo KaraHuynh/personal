@@ -70,21 +70,21 @@ export default function Contact(){
                 
             
                 <div className="contact-icons flex flex-row justify-center pb-10">
-                    <a href="https://github.com/KaraHuynh" className="hover:opacity-75 transition-all mr-3">
+                    <a href="https://github.com/KaraHuynh" target="_blank" rel="noreferrer" className="hover:opacity-75 transition-all mr-3" >
                         <img 
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996945944153174066/github.png"
                             alt="github"
                             width="60"
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/kara-huynh/" className="hover:opacity-75 transition-all">
+                    <a href="https://www.linkedin.com/in/kara-huynh/" target="_blank" rel="noreferrer" className="hover:opacity-75 transition-all">
                         <img 
                             src="https://cdn.discordapp.com/attachments/878469526117810217/996946006610542612/linkedin.png"
                             alt="linkedin"
                             width="60"
                         />
                     </a>
-                    <a href="https://devpost.com/kara-huynh?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" className="hover:opacity-75 transition-all ml-3">
+                    <a href="https://devpost.com/kara-huynh" target="_blank" rel="noreferrer" className="hover:opacity-75 transition-all ml-3">
                         <FontAwesomeIcon className="devpost text-white" icon={faDev}/>
                     </a>
 

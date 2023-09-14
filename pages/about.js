@@ -6,9 +6,9 @@ export default function About(){
                     <h1 className="text-3xl md:text-4xl text-white text-center py-1.5">about me</h1>
                 </div>
                 <h1 className="text-xl md:text-2xl text-white m-5">
-                    my name is Kara Huynh. i'm in my third year of Computer Science at <strong>Toronto Metropolitan University</strong> (formerly known as Ryerson University). i really enjoy coding, singing and dancing in my free time. 
+                    my name is Kara Huynh. i'm in my fourth year of Computer Science at <strong>Toronto Metropolitan University</strong> (formerly known as Ryerson University). i really enjoy coding, singing and dancing in my free time. 
                     ever since i was a kid, i was also drawn into using computers often as i fell in love with gaming. some of my all time favorites are to the moon, maplestory, unpacking, valorant and phasmophobia.
-                    coding became a passion in my life and i have a dream to become a software developer in the future.
+                    coding became a passion in my life and i have a dream to become a software developer in the future. i am particularly interested in fields of frontend development, backend development and ui/ux design. 
                 <br/><br/>some languages i know are
                 </h1>
                 {/*flex flex-col ml-8 md:flex-row m-auto md:m-10 */}
