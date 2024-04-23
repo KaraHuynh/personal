@@ -1,13 +1,14 @@
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDev } from '@fortawesome/free-brands-svg-icons';
+import { faDev, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Image from 'next/image'
 
 
 config.autoAddCss = false
@@ -19,11 +20,12 @@ export default function ProjectCard({ title, imageLink, altDes, languages, parag
                 <h1 className="text-3xl md:text-4xl text-white text-center py-1.5">{title}</h1>
             </div>
             <div className="image-container">
-                <img
+                <Image
                     className="project-image content-center"
                     src={imageLink}
                     alt={altDes}
                     width="700"
+                    height="350"
                 />
             </div>
             <div className="project-paragraph mb-5 m-2">
@@ -32,16 +34,12 @@ export default function ProjectCard({ title, imageLink, altDes, languages, parag
                     {paragraph}
                 </h1>
             </div>
-            <div className="project-icons flex float-right m-5 mt-5">
+            <div className="project-icons flex float-right m-5 mt-5 gap-x-2">
                     <a target="__blank" href={github} className="hover:opacity-75 transition-all">
-                        <img 
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996945944153174066/github.png"
-                            alt="github"
-                            width="60"
-                        />
+                        <FontAwesomeIcon className="icon-size text-white" icon={faGithub}/>
                     </a>
                     <a href={devpost} className="hover:opacity-75 transition-all">
-                        <FontAwesomeIcon className="devpost text-white" icon={faDev}/>
+                        <FontAwesomeIcon className="icon-size text-white" icon={faDev}/>
                     </a>
                 </div>
         </div>

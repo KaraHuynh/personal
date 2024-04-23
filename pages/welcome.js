@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 // import Anya from "./images/anya.gif";
 // import profilePic from './images/kara.png';
+import Image from 'next/image'
 
 export default function Welcome(){
     const [showModal, setShowModal] = useState(false);
@@ -16,11 +17,12 @@ export default function Welcome(){
                         src={profilePic}
                         alt="Photo of Kara"
                     /> */}
-                    <img
+                    <Image
                         className="rounded-full"
-                        src="https://cdn.discordapp.com/attachments/878469526117810217/1020790260835287171/IMG_6350.jpg"
+                        src="/images/Karage.jpg"
                         alt="Photo of Kara"
-                        width="420"
+                        width="400"
+                        height="490"
                         
                     />
                 </div>

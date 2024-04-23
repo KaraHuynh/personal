@@ -1,12 +1,14 @@
 import ProjectCard from "./projectcard";
 import Grid from '@mui/material/Grid';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 
 export default function Projects(){
     return(
         <div className="projects grid grid-cols-1 lg:grid-cols-2">
             <ProjectCard 
                 title={"blaze buddy"} 
-                imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/1098430594830061669/gallery.png"}
+                imageLink={"/images/blazebuddy.png"}
                 altDes={"Blaze Buddy Landing Page"}
                 languages={"python, cohere api, react, flask, figma"}    
                 paragraph = {"blaze buddy's goal is to be a one-pit stop for users on staying informed about current fire-related incidents, statistics, and safety protocols. this project was rewarded Best Use of Cohere API - 2nd Place out of 47 projects at ElleHacks 2023."}
@@ -16,7 +18,7 @@ export default function Projects(){
             
             <ProjectCard 
                 title={"her needs"} 
-                imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/996918940158677062/unknown.png"}
+                imageLink={"/images/herneeds.png"}
                 altDes={"Her Needs Landing Page"}
                 languages={"vue.js, firebase, google maps api"}    
                 paragraph = {"her needs is a resource website with an interactive map to locate nearby washrooms with menstrual products and find the most affordable products to fight period poverty. this project was rewarded First Place Overall out of 27 projects at GryphHacks 2022."}
@@ -26,7 +28,7 @@ export default function Projects(){
 
             <ProjectCard 
                 title={"blahajack"} 
-                imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/1051587631294730250/blahajack_1.png"}
+                imageLink={"/images/blahajack.png"}
                 altDes={"Blahajack start"}
                 languages={"python, pygame, photoshop"}    
                 paragraph = {"blahajack is a IKEA shark-themed virtual card game inspired by Monopoly and Exploding Kittens. the goal is to rake up as much as money as you can and beat your opponents. this project was rewarded First Overall out of 65 projects at SharkHacks 2020."}
@@ -36,7 +38,7 @@ export default function Projects(){
 
             <ProjectCard 
                 title={"qrvsp"} 
-                imageLink={"https://cdn.discordapp.com/attachments/878469526117810217/1051590652489633802/qrvsp.png"}
+                imageLink={"/images/qrvsp.png"}
                 altDes={"QRVSP Landing Page"}
                 languages={"vue.js, firebase, openscreen api"}    
                 paragraph = {"qrvsp is a website that is dedicated to making event planning more simple and efficient using openscreen's api! users can generate QR codes for connecting to WIFI, RVSP and organization purposes! this project was placed in the Top 10 Projects at RUHacks 2022."}

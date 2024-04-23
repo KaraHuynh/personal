@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDev } from '@fortawesome/free-brands-svg-icons';
+import { faDev, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact(){
     async function handleSubmit(e){
@@ -71,21 +71,14 @@ export default function Contact(){
             
                 <div className="contact-icons flex flex-row justify-center pb-10">
                     <a href="https://github.com/KaraHuynh" target="_blank" rel="noreferrer" className="hover:opacity-75 transition-all mr-3" >
-                        <img 
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996945944153174066/github.png"
-                            alt="github"
-                            width="60"
-                        />
+                        <FontAwesomeIcon className="icon-size text-white" icon={faGithub}/>
                     </a>
                     <a href="https://www.linkedin.com/in/kara-huynh/" target="_blank" rel="noreferrer" className="hover:opacity-75 transition-all">
-                        <img 
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/996946006610542612/linkedin.png"
-                            alt="linkedin"
-                            width="60"
-                        />
+                        <FontAwesomeIcon className="icon-size text-white" icon={faLinkedin}/>
+
                     </a>
                     <a href="https://devpost.com/kara-huynh" target="_blank" rel="noreferrer" className="hover:opacity-75 transition-all ml-3">
-                        <FontAwesomeIcon className="devpost text-white" icon={faDev}/>
+                        <FontAwesomeIcon className="icon-size text-white" icon={faDev}/>
                     </a>
 
                 </div>

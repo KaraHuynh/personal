@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="author" content="Kara Huynh"/>
 		    <meta name="description" content="My own personal website :)"/>
         <title>Kara Huynh</title>
-        <link rel="icon" href="https://cdn.discordapp.com/attachments/878469526117810217/1001618442161508422/Screenshot_2022-07-26_183159-removebg-preview_3.png" />
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/878469526117810217/1001618442161508422/Screenshot_2022-07-26_183159-removebg-preview_3.png?ex=6628375d&is=6626e5dd&hm=d967df24066ce1f9f2714c7b40181e26b68af525e7197ebcfb8ea0ab3301a868&" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" />
       </Head>
       <Navbar />

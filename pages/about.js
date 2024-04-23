@@ -1,3 +1,6 @@
+import Image from 'next/image';
+
+
 export default function About(){
     return(
         <>
@@ -13,44 +16,44 @@ export default function About(){
                 </h1>
                 {/*flex flex-col ml-8 md:flex-row m-auto md:m-10 */}
                 <div className="language-images">
-                    <div className="language flex-1">
-                        <img
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404906115143/python.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image
+                            src="/images/python.png"
                             alt="Python"
-                            width="170"    
+                            width="170"
+                            height="170"    
                         />
                     </div>
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404302127194/java.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image
+                            src="/images/java.png"
                             alt="Java"
-                            width="170"    
+                            width="170" 
+                            height="170"   
                         />
                     </div>
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045403974979645/c.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image 
+                            src="/images/c.png"
                             alt="C"
-                            width="170"    
+                            width="170"
+                            height="170"    
                         />
                     </div>
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003046109410766848/javascript_3.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image 
+                            src="/images/javascript.png"
                             alt="Javascript"
-                            width="170"    
+                            width="170"
+                            height="170"    
                         />
                     </div>
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045404625076305/html.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image 
+                            src="/images/html.png"
                             alt="HTML"
-                            width="170"    
+                            width="170"
+                            height="170"    
                         />
                     </div>
 
@@ -60,32 +63,32 @@ export default function About(){
                 </h1>
                 {/*flex flex-col md:flex-row m-16 lg:ml-64 */}
                 <div className="language-images">
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045403190640640/react.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image 
+                            src="/images/react.png"
                             alt="React"
-                            width="170"    
+                            width="170"
+                            height="170"    
                         />
                     </div>
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045402880266270/nodejs.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image 
+                            src="/images/nodejs.png"
                             alt="Node"
-                            width="170"    
+                            width="170" 
+                            height="170"   
                         />
                     </div>
-                    <div className="language flex-1">
-                        <img 
-                            className="hover:scale-125 ease-in-out duration-150 transition-all"
-                            src="https://cdn.discordapp.com/attachments/878469526117810217/1003045402163023892/vue.png"
+                    <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
+                        <Image 
+                            src="/images/vue.png"
                             alt="Vue"
-                            width="170"    
+                            width="170"  
+                            height="170"  
                         />
                     </div>
                     {/* <div className=" language flex-1">
-                        <img 
+                        <Image 
                             src="https://cdn.discordapp.com/attachments/878469526117810217/1003046945532674188/react_1.png"
                             alt="Next"
                             width="50"     
