@@ -19,13 +19,13 @@ export default function ProjectCard({ title, imageLink, altDes, languages, parag
             <div className="about-title rounded-lg bg-[#A7A8DE]">
                 <h1 className="text-3xl md:text-4xl text-white text-center py-1.5">{title}</h1>
             </div>
-            <div className="image-container">
+            <div className="image-container flex justify-center">
                 <Image
-                    className="project-image content-center"
+                    className="project-image w-full h-auto"
                     src={imageLink}
                     alt={altDes}
-                    width="700"
-                    height="350"
+                    width={700}
+                    height={350}
                 />
             </div>
             <div className="project-paragraph mb-5 m-2">
