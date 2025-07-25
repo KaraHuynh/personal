@@ -22,7 +22,7 @@ export default function Welcome(){
                         src="/images/Karage.jpg"
                         alt="Photo of Kara"
                         width="400"
-                        height="490"
+                        height="480"
                         
                     />
                 </div>
@@ -38,10 +38,10 @@ export default function Welcome(){
                             loop: true,
                         }}
                         onInit={(typewriter)=>{
-                            typewriter.typeString("a fourth year computer science student...")
+                            typewriter.typeString("a recent computer science grad...")
                             .pauseFor(2000)
                             .deleteAll()
-                            .typeString("an aspiring software developer...")
+                            .typeString("currently developing at osler :)...")
                             .pauseFor(2000)
                             .deleteAll()
                             .typeString("a passionate gamer...")

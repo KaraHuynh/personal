@@ -9,10 +9,13 @@ export default function About(){
                     <h1 className="text-3xl md:text-4xl text-white text-center py-1.5">about me</h1>
                 </div>
                 <h1 className="text-xl md:text-2xl text-white m-5">
-                    my name is Kara Huynh. i'm in my fourth year of Computer Science at <strong>Toronto Metropolitan University</strong> (formerly known as Ryerson University). i really enjoy coding, singing and dancing in my free time. 
-                    ever since i was a kid, i was also drawn into using computers often as i fell in love with gaming. some of my all time favorites are to the moon, maplestory, unpacking, valorant and phasmophobia.
-                    coding became a passion in my life and i have a dream to become a software developer in the future. i am particularly interested in fields of frontend development, backend development and ui/ux design. 
-                <br/><br/>some languages i know are
+                    My name is Kara Huynh, a recent Computer Science grad from <strong>Toronto Metropolitan University</strong>. 
+                    I am currently working at <strong>Osler, Hoskin & Harcourt LLP</strong> as a <strong>web developer</strong>. 
+                    I am particularly interested in fields of fullstack development and data analysis.     
+                    My passion for tech started early through playing games such To The Moon, Maplestory, Unpacking, Valorant and Phasmophobia. 
+                    These games played a significant role in shaping my curiosity about how software works. 
+                    Over time, this curiosity evolved into a passion for coding and software development.
+                <br/><br/>Some languages I know are
                 </h1>
                 {/*flex flex-col ml-8 md:flex-row m-auto md:m-10 */}
                 <div className="language-images">
@@ -42,15 +45,15 @@ export default function About(){
                     </div>
                     <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
                         <Image 
-                            src="/images/javascript.png"
-                            alt="Javascript"
+                            src="/images/csharp.png"
+                            alt="C#"
                             width="170"
                             height="170"    
                         />
                     </div>
                     <div className="language flex-1 hover:scale-125 ease-in-out duration-150 transition-all">
                         <Image 
-                            src="/images/html.png"
+                            src="/images/sql.png"
                             alt="HTML"
                             width="170"
                             height="170"    
@@ -59,7 +62,7 @@ export default function About(){
 
                 </div>
                 <h1 className="text-xl md:text-2xl text-white m-5">
-                    some web frameworks i've worked with before are
+                    Some web frameworks I've worked with before are
                 </h1>
                 {/*flex flex-col md:flex-row m-16 lg:ml-64 */}
                 <div className="language-images">
@@ -98,7 +101,7 @@ export default function About(){
                 </div>
 
 
-                <h1 className="text-xl md:text-2xl text-white text-center m-5">check out some of my projects below!<br></br></h1>
+                <h1 className="text-xl md:text-2xl text-white text-center m-5">Check out some of my projects below!<br></br></h1>
             </div>
         
         </>
