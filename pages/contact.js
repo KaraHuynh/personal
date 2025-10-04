@@ -25,7 +25,7 @@ export default function Contact(){
                 </div>
                 <h1 className="text-lg md:text-2xl text-white text-center m-5">
                     If you have any suggestions, ideas or just want to talk, feel free to connect with me!
-                    <br></br>You can also shoot me an email at <a className="hover-effect font-bold" href="mailto:kara.huynh@torontomu.ca">kara.huynh@torontomu.ca.</a>
+                    <br></br>You can also shoot me an email at <a className="hover-effect font-bold" href="mailto:kara.huynh02@gmail.com">kara.huynh02@gmail.com</a>.
                 </h1>
                 
                 {/* <div className="contact-form" align="center">
