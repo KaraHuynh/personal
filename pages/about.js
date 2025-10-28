@@ -10,7 +10,7 @@ export default function About(){
                 </div>
                 <h1 className="text-xl md:text-2xl text-white m-5">
                     My name is Kara Huynh, a recent Computer Science grad from Toronto Metropolitan University. 
-                    I am currently working at <strong>Osler, Hoskin & Harcourt LLP</strong> as a <strong>Software Engineer</strong>. 
+                    I am currently working at <strong>Osler, Hoskin & Harcourt LLP</strong> as a <strong>Web Developer</strong>. 
                     I am particularly interested in fields of fullstack development and data analysis.     
                     My passion for tech started early through playing games such To The Moon, Maplestory, Unpacking, Valorant and Phasmophobia. 
                     These games played a significant role in shaping my curiosity about how software works. 
